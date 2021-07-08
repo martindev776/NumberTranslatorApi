@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Utilities\IntExtensions.fs" />
+    <Compile Include="DbTables\UniqueNumbersTable.fs" />
+    <Compile Include="DbTables\NumberPrefixTable.fs" />
+    <Compile Include="Repositories\UniqueNumberRepository.fs" />
+    <Compile Include="Repositories\NumberPrefixRepository.fs" />
+    <Compile Include="Services\UniqueNumberTranslatorService.fs" />
+    <Compile Include="Services\PrefixService.fs" />
+    <Compile Include="Services\TeensTranslatorService.fs" />
+    <Compile Include="Services\TensTranslatorService.fs" />
+    <Compile Include="Services\NumberTranslatorService.fs" />
+    <Compile Include="Composer\NumberTranslatorComposer.fs" />
+    <Compile Include="Controllers\NumberTranslatorController.fs" />
+    <Compile Include="Startup.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
